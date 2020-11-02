@@ -1,0 +1,239 @@
+@media(min-width:100px) and (max-width:1000px){
+	p{
+		text-align:left !important;
+	}
+}
+header .header-top{
+	padding: 5px;
+}
+.info .mb-10{
+	display: block;
+	margin: 0px auto;
+	float: none;
+	text-align: justify;
+}
+#map{
+	/*z-index: -999;*/
+}
+#slideContainer .know-more-btn{
+	z-index: 9999999;
+	position: absolute;
+	padding: 5px 10px;
+	border-radius: 10px;
+	background: #efd212;
+	right: 10%;
+	bottom: 11%;
+	text-decoration: none;
+}
+#slideContainer .know-more-btn a{
+	text-decoration: none;
+	color: #000;
+	font-family: "TRAJANPRO";
+	font-weight: bold;
+	font-size: 16px;
+}
+section ._sdf98032 .emblem{
+	width: unset;
+	display: block !important;
+}
+
+footer{
+	text-align: center;
+}
+
+section ._sdf98032.bg{
+	background-image: none;
+}
+.info .text{
+	padding-right: initial; 
+}
+._sdf98032 .form .details .ele{
+	width: 100%;
+	display: block;
+	float: none;
+	margin: 10px auto;
+}
+.tabbedPane .header ul li{
+	display: block;
+	width: 100%;
+}
+._sdf98032 .form input[type="submit"].btn{
+	border-radius: 4px;
+	border:none;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	background-color:#a68b46;
+	color:white;
+	padding: 8px 16px;
+}
+._sdf98032 .locs .locFeatRow .card{
+	display: block;
+	margin: 0px auto;
+}
+.mobFWCont{
+	padding: 20px;
+}
+.contactDets .form {
+    padding-right: 0px !important;
+}
+.contactDets #map{
+	margin-top: 20px;
+	height: 300px;
+}
+.contactDets .form {
+     padding-right: 0px !important; 
+}
+.mobile_div #enquiry {
+    position: relative;
+}
+.mobile_div input {
+    
+    width: 100%;
+
+}
+
+.mobile_div .col {
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    padding: 5px;
+    width: 100%;
+}
+
+.mobile_div .enquiryForm input[type="submit"] {
+    background-color: rgb(0, 128, 64);
+    padding: 7px 25px;
+    color: white;
+    border: none;
+    width: 100px;
+}
+#enquiry{
+	position: fixed;
+	top: calc(100% - 40px);
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	/*bottom: 0px;*/
+}
+#enquiry .enquiryForm{
+	background-color: rgba(44,44,44,1);
+}
+header{
+	position: relative;
+}
+nav ul{
+	display: flex;
+	flex-direction: column;
+}
+.floorSlider{
+	width: unset;
+	max-width: 100% !important;
+}
+.brochuresDownload{
+	width: 100%;
+	/*padding: 20px;*/
+	margin-left: -5vh;
+	display: block;
+}
+.brochuresDownload .btn-download{
+	display: block;
+	/*width: 100%;*/
+	/*text-align: center;*/
+}
+._sdf98032 .locs .locFeatRow{
+	border-bottom: none;
+}
+.mb-12.top-offset-2{
+	margin-top: 40px !important;
+}
+.col h4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.row.info .projectLogo img{
+	width: 100%;
+	display: block;
+	padding: 30px;
+}
+section .siteInfo{
+	text-align: center;
+}
+section .siteInfo img{
+	border-right: none;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	display: block;
+}
+#thumbslider .left, #thumbslider .right{
+	display: none;
+}
+#thumbslider .slider{
+	white-space: unset;
+	display: block;
+	float: none;
+	width: 100%;
+}
+#thumbslider .slider .card{
+	display: block;
+	margin: 20px auto;
+}
+#sliderBox .slide .content{
+	transform: scale(.3);
+}
+
+
+ .mob_form {
+    display: block !important;
+    width: 100% !important;
+
+
+}
+.banner_form {
+    display: none;
+}
+
+#pad_all {
+    width: 100% !important;
+}
+
+
+
+.mob_form .title {
+	color: #137e3d;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 8px;
+    margin-bottom: 20px;
+}
+.mob_form span.icon {
+	width: 35px;
+	height: 35px;
+	margin-right: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.mob_form span.icon svg {
+	fill: #137e3d;
+}
+.banner.home-about-section {
+	position: relative;
+	height: auto !important;
+}
+
+.mob_form {
+	background-color: #000000;
+}
+.mob_form #pad_all {
+    
+width: 100%;
+}
+.mob_form select {
+	 height: 30px !important;
+    width: 100% !important;
+    border-radius: 4px !important;
+    border: 1px solid #cecece !important;
+    padding: 5px !important;
+	color: #333333;
+}

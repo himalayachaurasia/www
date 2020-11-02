@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /mail/
+
+Sitemap: http://vishwagreenrealtors.com/sitemap.xml

@@ -1,0 +1,1 @@
+$(document).ready(function(){function d(){$("#pslider").css({})}var a=1,c=$("#pslider .card").length;console.log(c),setInterval(function(){a++,a<c||(a=0),d()},4e3),$("._projects .body .left").click(function(){a--,d()}),$("._projects .body .right").click(function(){a++,d()})});

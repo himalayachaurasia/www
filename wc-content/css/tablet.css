@@ -1,0 +1,53 @@
+
+._sdf98032.bg{
+	background: none;
+}
+
+#enquiry{
+	position: fixed;
+	top: calc(100% - 40px);
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	z-index: 99999999  !important;
+	/*bottom: 0px;*/
+}
+
+#enquiry .enquiryForm{
+	background-color: rgba(44,44,44,1);
+}
+.tabbedPane .header ul li{
+	display: block;
+	width: 100%;
+}
+.tabbedPane .header ul {
+    background-color: #7fbe9f;
+    width: 100% !important;
+}
+.contactDets .form {
+     padding-right: 0px !important; 
+}
+.floorSlider{
+	width: unset;
+	max-width: 100% !important;
+}
+.brochuresDownload{
+	width: 100%;
+	padding: 20px;
+	display: block;
+}
+.brochuresDownload .btn-download{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+._sdf98032 .locs .locFeatRow{
+	border-bottom: none;
+}
+.mb-12.top-offset-2{
+	margin-top: 40px !important;
+}
+.col h4{
+	text-align: center;
+	margin-bottom: 20px;
+}

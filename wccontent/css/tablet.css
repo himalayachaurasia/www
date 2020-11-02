@@ -1,0 +1,127 @@
+
+._sdf98032.bg{
+	background: none;
+}
+
+.mobile_div #enquiry {
+    position: relative;
+}
+.mobile_div input[type="email"],.mobile_div input[type="text"] {
+    
+    width: 100%;
+
+}
+
+.mobile_div .enquiryForm input[type="submit"] {
+    background-color: rgb(0, 128, 64);
+    padding: 7px 25px;
+    color: white;
+    border: none;
+    width: 100px;
+}
+
+.mobile_div .col {
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    padding: 5px;
+    
+}
+
+#enquiry{
+	position: fixed;
+	top: calc(100% - 40px);
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	z-index: 99999999  !important;
+	/*bottom: 0px;*/
+}
+
+#enquiry .enquiryForm{
+	background-color: rgba(44,44,44,1);
+}
+.tabbedPane .header ul li{
+	display: block;
+	width: 100%;
+}
+.tabbedPane .header ul {
+    background-color: #7fbe9f;
+    width: 100% !important;
+}
+.contactDets .form {
+     padding-right: 0px !important; 
+}
+.floorSlider{
+	width: unset;
+	max-width: 100% !important;
+}
+.brochuresDownload{
+	width: 100%;
+	padding: 20px;
+	display: block;
+}
+.brochuresDownload .btn-download{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+._sdf98032 .locs .locFeatRow{
+	border-bottom: none;
+}
+.mb-12.top-offset-2{
+	margin-top: 40px !important;
+}
+.col h4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.banner_form {
+    display: none;
+}
+.mob_form {
+    display: block !important;
+    width: 100% !important;
+}
+
+
+.mob_form .title {
+	color: #137e3d;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 8px;
+    margin-bottom: 20px;
+}
+.mob_form span.icon {
+	width: 35px;
+	height: 35px;
+	margin-right: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.mob_form span.icon svg {
+	fill: #137e3d;
+}
+.banner.home-about-section {
+	position: relative;
+	height: auto !important;
+}
+
+.mob_form {
+	background-color: #000000;
+}
+
+.mob_form #pad_all {
+    
+width: 100%;
+}
+.mob_form select {
+	 height: 30px !important;
+    width: 100% !important;
+    border-radius: 4px !important;
+    border: 1px solid #cecece !important;
+    padding: 5px !important;
+	color: #333333;
+}

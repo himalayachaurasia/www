@@ -1,0 +1,83 @@
+  <footer class="footer">
+  <div class="container">
+            <nav class="float-left">
+              <ul>
+                <li>
+                  <a href="http://planm.vishwagreen.com">
+                    planm.vishwagreen.com
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.vishwagreenrealtors.com/">
+                    vishwagreen realtors
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.vishwagreenrealtors.com/Projects/Ongoing/">
+                    Ongoing projects
+                  </a>
+                </li>
+                <!-- <li>
+                  <a href="http://www.vishwagreenrealtors.com/ContactUs/">
+                    Contact Us
+                  </a>
+                </li> -->
+              </ul>
+            </nav>
+            <div class="copyright float-right">
+              &copy;
+              <script>
+              document.write(new Date().getFullYear())
+              </script>, made with <i class="material-icons">favorite</i> by
+              <a href="http://planm.vishwagreen.com" target="_blank">Vishwagreen Realtors Pvt. Ltd.</a> All rights reserve.
+            </div>
+          </div>
+       </footer>
+                </div>
+              </div>
+              <!--   Core JS Files   -->
+              <script src="assets/js/core/jquery.min.js"></script>
+              <script src="assets/js/core/popper.min.js"></script>
+              <script src="assets/js/core/bootstrap-material-design.min.js"></script>
+              <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+              <!-- Plugin for the momentJs  -->
+              <script src="assets/js/plugins/moment.min.js"></script>
+              <!--  Plugin  Sweet Alert -->
+              <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+              <!-- Forms Vaations Plugin -->
+              <script src="assets/js/plugins/jquery.validate.min.js"></script>
+              <!-- Plugin fthe Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+              <script src="assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+              <!--	Plugin  Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+              <script src="assets/js/plugins/bootstrap-selectpicker.js"></script>
+              <!--  Plugin  the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+              <script src="assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+              <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->
+              <script src="assets/js/plugins/jquery.dataTables.min.js"></script>
+              <!--	Plugin  Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+              <script src="assets/js/plugins/bootstrap-tagsinput.js"></script>
+              <!-- Plugin fFileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+              <script src="assets/js/plugins/jasny-bootstrap.min.js"></script>
+              <!--  Full Cadar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+              <script src="assets/js/plugins/fullcalendar.min.js"></script>
+              <!-- Vector Mplugin, full documentation here: http://jvectormap.com/documentation/ -->
+              <script src="assets/js/plugins/jquery-jvectormap.js"></script>
+              <!--  Plugin  the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+              <script src="assets/js/plugins/nouislider.min.js"></script>
+             <script src="assets/js/plugins/arrive.min.js"></script>
+
+              <!-- Place this tag in your head or just before your close body tag. -->
+              <script async defer src="../../../buttons.github.io/buttons.js"></script>
+              <!-- Chartist JS -->
+              <script src="assets/js/plugins/chartist.min.js"></script>
+              <!--  Notificons Plugin    -->
+              <script src="assets/js/plugins/bootstrap-notify.js"></script>
+              <!-- Control ter for Material Dashboard: parallax effects, scripts for the example pages etc -->
+              <script src="assets/js/material-dashboard.minf066.js?v=2.1.0" type="text/javascript"></script>
+              <!-- Materialshboard DEMO methods, don't include it in your project! -->
+              <script src="assets/demo/demo.js"></script>
+
+</body>
+
+</html>

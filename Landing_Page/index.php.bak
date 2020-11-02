@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enquire  :: Vishwa</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="../wc-content/css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="../wc-content/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../wc-content/css/other css/fonts.css"/>
+	<link rel="stylesheet" type="text/css" href="../wc-content/css/desktop.css" media="only screen and (max-width: 1200px) and (min-width: 990px)">
+	<link rel="stylesheet" type="text/css" href="../wc-content/css/tablet.css" media="only screen and (max-width: 989px) and (min-width: 600px)">
+	<link rel="stylesheet" type="text/css" href="../wc-content/css/mobile.css" media="only screen and (max-width: 599px) and (min-width: 320px)">
+	<script type="text/javascript" src="../wc-content/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../wc-content/js/behavior.js"></script>
+	<script type="text/javascript" src="../wc-content/js/slider.js"></script>
+	<script type="text/javascript" src="../wc-content/js/validation.js"></script>
+	<meta name="google-site-verification" content="gBKl6tzggW7b8ZnjaDkKTf1PbESBv7G2Z91qEHWcd-0" />
+	<style type="text/css">
+		.banner{
+			background-image:url(plans.jpg);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			color:#d3b65c;
+			box-sizing:border-box;
+		}
+		.enquire{
+			float:right;
+			margin-right:5em;
+			padding:2%;
+			font-family:'TRAJANPRO';
+			width:40%;
+			position:relative;
+			top:100px;
+		}
+		h1{
+			text-transform:uppercase;
+			text-align:center;
+		}
+		input[type='text'],[type='email'],[type='submit'],textarea{
+			background-color:rgba(12,15,23,8);
+			border:none;
+			border-width:1px;
+			border-radius:10px;
+			border-style:inset;
+			border-color:#6a6869;
+			padding:0.5em;
+			color:#d3b65c;
+			font-size:24px;
+			width:100%;			
+		}
+		input[type='submit']{
+			background-color:#6a6869;
+			border-style:outset;
+			text-transform:uppercase;
+			box-shadow:1px 2px 1px 1px #333;
+			width:30%;
+		}
+		::-webkit-input-placeholder{
+			color:#d3b65c;
+		}
+		input,textarea	{
+			display:block;
+			margin:15px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+				console.log($('body').width());
+				console.log($('div').height());
+				if($('body').width()<=700)
+				{
+					$('.banner').css({
+						'height':'170px'
+					});
+					$('.enquire').css({
+						'overflow':'none',
+						'top':$('div').height(),
+						'background':'black',
+						'z-index':'1111',
+						'position':'absolute',
+						'width':'100%'
+					});
+					$('input').css({
+						'width':'90%',
+						'font-size':'16px',
+					});
+					$('textarea').css({
+						'width':'89.5%',
+						'font-size':'16px',
+					});
+				}
+				if($('body').width()>700 && $('body').width()<=1024){
+					$('h1').css({
+						'margin':'0px'
+					});
+					$('.enquire').css({
+						'top':'0px',
+						'margin':'5px',
+						'padding':'10px'
+					});
+						$('input').css({
+						'padding':'10px',
+						'font-size':'18px',
+						'margin':'5px'
+					});
+						$('textarea').css({
+						'padding':'5px',
+						'margin':'5px',
+						'font-size':'18px'
+					});
+				}
+				
+		})
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col banner">
+				<div class="enquire">
+					<h1>Enquire Now</h1>
+					<form method="POST" action="mailer/">
+								<input type="text" name="visitorName" data-accept="alphabet" placeholder="NAME" required minlength="4">								
+								<input type="email" name="visitorEmail" placeholder="EMAIL" required="">
+								<input type="text" name="visitorContactNumber" data-accept="number" placeholder="MOBILE NO." required minlength="10" maxlength="10">
+								<textarea placeholder="MESSAGE" name="visitorFeedback" required minlength="10" rows='3'></textarea>
+								<center><input type="submit" name="submit" value="Submit"></center>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-91633724-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPKFD1ibn7oCjuu4VvJ7HpKOX4fZq-7Qg&callback=initMap" async defer></script>
+</body>
+</html>
