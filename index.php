@@ -79,7 +79,7 @@
 	
 	
 }
-/* style end */
+/* style end css */
 </style>
 </head>
 <body class="disable-select"oncopy="return false" oncut="return false" onpaste="return false" onselect="return false">
