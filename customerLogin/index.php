@@ -31,11 +31,18 @@ session_start();
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Navbar -->
+ 
     <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top text-white">
       <div class="container">
-        <div class="navbar-wrapper">
-          <a class="navbar-brand" href="#pablo"><h3>Vishwagreen Realtors Pvt. Ltd.</h3></a>
+      <div class="row">
+    <div class="col lg-2 lp-12 tb-12 mb-12 tb-offset-1 lg-offset-1 dt-offset-1 logo">
+					<a herf="index.php"><img src="assets/img/logologin.png" alt="Vishwa Green Realtors Login Logo"></a>
+					<!-- <div class="col fl-rt mobile-only"> -->
+						
+					</div>
         </div>
+    </div>
+        
         <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
         <span class="navbar-toggler-icon icon-bar"></span>
@@ -74,7 +81,7 @@ session_start();
         <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
+            <div class="col-lg-6 col-md-6 col-sm-8 ml-auto mr-auto">
               <form class="form" method="post" action="#">
                 <div class="card card-login card-hidden">
                   <div class="card-header card-header-rose text-center">
@@ -83,13 +90,21 @@ session_start();
                   </div>
                   <div class="card-body ">
                     <span class="bmd-form-group">
+                   <div>
+                      <label class="card-body">
+                        <input type="radio" name="optradio">  Customer Login
+                     </label>
+                      <label class="card-body">
+                        <input type="radio" name="optradio">  Admin Login
+                      </label>
+                   </div>
                       <div class="input-group">
                         <div class="input-group-prepend">
                           <span class="input-group-text">
                             <i class="material-icons">email</i>
                           </span>
                         </div>
-                        <input type="email" class="form-control" name="email" placeholder="Email...">
+                        <input type="email" class="form-control" name="email" placeholder="Email..." required>
                       </div>
                     </span>
                     <span class="bmd-form-group">
@@ -99,7 +114,7 @@ session_start();
                             <i class="material-icons">lock_outline</i>
                           </span>
                         </div>
-                        <input type="password" class="form-control" name="pwd" placeholder="Password...">
+                        <input type="password" class="form-control" name="pwd" placeholder="Password..."required>
                       </div>
                     </span>
                   </div>
@@ -142,7 +157,7 @@ session_start();
               &copy;
               <script>
               document.write(new Date().getFullYear())
-              </script>, made with <i class="material-icons">favorite</i> by
+              </script>, made with <i class="material-icons">home</i> by
               <a href="http://planm.vishwagreen.com" target="_blank">Vishwagreen Realtors Pvt. Ltd.</a> All rights reserve.
             </div>
           </div>

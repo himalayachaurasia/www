@@ -43,44 +43,7 @@
 	</script>
 	<!-- Event snippet for Lead form filled conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --><script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-688768633/uggzCIOxubYBEPmMt8gC', 'event_callback': callback }); return false; } </script>
 	
-<style>
-	.menufont li a:hover{
-		
-	color: #FFFFFF;
-	background: #333333;
-	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-	color: #FFFFFF;
-	background: #0c9430;
-	font-size:14px;
-	font-weight:bold;
-	border-radius:60px;
-	}
 
-	.disable-select{
-  user-select:none;
-}
-.customerLogin{
-	border-radius:60px;
-	border:none;
-	color: #FFFFFF;
-	background: #333333;
-	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-	color: #FFFFFF;
-	background: #387548;
-	font-size:14px;
-	font-weight:bold;
-}
-.customerLogin:hover{
-	color: white;
-	
-	font-size:14px;
-	background: #870b07;
-	border:none;
-	
-	
-}
-/* style end css */
-</style>
 </head>
 <body class="disable-select"oncopy="return false" oncut="return false" onpaste="return false" onselect="return false">
 

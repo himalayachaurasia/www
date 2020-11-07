@@ -27,7 +27,7 @@
 
     $mail->isHTML(true);
     $mail->Subject="Plan-M Contact Form Submission: ".$_POST['visitorName'];
-    $mail->Body="<h2>Message: <u>Hi, A new client ".$_POST['visitorName']." is interested in our Plan-M Project.</u></h2><br><h2>Name: ".$_POST['visitorName']."<br>Email: " .$_POST['visitorEmail']
+    $mail->Body="<h2>Message: <u>Hi, A new client ".$_POST['visitorName']." is interested in our Plan-M project. He/She has enquired from https://www.vishwagreenrealtors.com/ website.</u></h2><br><h2>Name: ".$_POST['visitorName']."<br>Email: " .$_POST['visitorEmail']
     ."<br>Mobile: " .$_POST['visitorContactNumber']."</h2>";
 
     if (!$mail->Send()) {
