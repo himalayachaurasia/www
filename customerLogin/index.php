@@ -36,8 +36,10 @@ session_start();
       <div class="container">
       <div class="row">
     <div class="col lg-2 lp-12 tb-12 mb-12 tb-offset-1 lg-offset-1 dt-offset-1 logo">
-					<a herf="index.php"><img src="assets/img/logologin.png" alt="Vishwa Green Realtors Login Logo"></a>
-					<!-- <div class="col fl-rt mobile-only"> -->
+				
+          <a href="https://www.vishwagreenrealtors.com">
+           <img border="0" alt="lgoinLogo" src="assets/img/logologin.png">
+          </a>
 						
 					</div>
         </div>

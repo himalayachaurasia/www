@@ -126,7 +126,7 @@
                                     <a class="nav-link drop-link dropdown-toggle" href="#" data-toggle="dropdown">
                                         DOWNLOAD
                                     </a>
-                                    <ul class="dropdown-menu sm-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <ul class="dropdown-menu sm-menuu" aria-labelledby="navbarDropdownMenuLinkk">
                                         <li>
                                             <a class="dropdown-item dropdown-toggle" href="../wccontent/brochures/Plan M Brochure PDF.pdf" target="_blank">Vishwa Plan M</a>
                                         </li>
@@ -162,7 +162,7 @@
         </div>  
     </header>
 
-    <section class="brochure-form-1">
+    <!-- <section class="brochure-form-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -193,7 +193,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="container-fluid Copyrights thank-you-footer">
         <div class="row">
             <div class="col-lg-1">   </div>
